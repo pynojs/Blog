@@ -1,0 +1,27 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+form {
+	display: inline-block;
+	text-align: center;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+fieldset {
+	padding: 10px;
+	border-radius: 10px;
+}
+span {
+	color: red;
+}
+button {
+	width: 50px;
+}
+input {
+	margin-bottom: 10px;
+}
+
+#lianxi {
+	color: blue;
+}

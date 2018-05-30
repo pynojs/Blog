@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%=title%></title>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/images/海盗之侠.jpg" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/style6.css" />
+	<script type="text/javascript" src="/javascripts/jQuery.js"></script>
+	<script type="text/javascript" src="/javascripts/js2.js"></script>
+</head>
+<body>
+<form>
+	<p>欢迎来到海盗之侠个人博客</p><br/>
+	<fieldset>
+		<legend>请填写注册信息</legend>
+		<span>*</span><label>姓名 <input type="text" required="required" name="name" id="name"></input></label><br/>
+		<span>*</span><label>密码 <input type="password" required="required" name="password" id="password"></input></label><br/>
+		<span>*</span><label>确认密码 <input type="password" required="required" id="password_again"></input></label>
+	</fieldset>
+	<br/>
+	<fieldset>
+		<legend>让我更了解你吧</legend>
+		<label>生日 <input type="text" name="birth" id="birth"></input></label><br/>
+		<label>星座 <input type="text" name="constellation" id="constellation"></input></label><br/>
+		<label>手机号 <input type="tel" name="tel" id="tel"></input></label><br/>
+		<label>家乡 <input type="text" name="hometown" id="hometown"></input></label><br/>
+		<label>现在所在地 <input type="text" name="place" id="place"></input></label><br/>
+		<label>职业或专业 <input type="text" name="profession" id="profession"></input></label><br/>
+		<span>*为必填项</span><br/>
+		<button type="button" id="zhuce">注册</button> <button type="reset">重置</button>
+	</fieldset>
+</form>
+
+</body>
+</html>

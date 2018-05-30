@@ -1,0 +1,21 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+form {
+	display: inline-block;
+	text-align: center;
+	margin-left: 40%;
+	margin-top: 30px;
+}
+
+fieldset {
+	border-radius: 10px;
+	padding: 30px;
+}
+input {
+	margin-bottom: 15px;
+}
+button {
+	width: 40px;
+}

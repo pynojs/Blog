@@ -1,0 +1,45 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.nav{
+	padding: 10px 10px;
+	background-color: #000000;
+	margin-bottom:  20px;
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+a{
+	text-decoration: none;
+}
+
+.footer {
+	background-color: #00ffff;
+	margin-top: 20px;	
+	padding: 15px;
+	clear: left;
+}
+.footer p {
+	text-align: center;
+}
+.table {
+	width: 300px;
+	margin-left: 20px;
+	border-top: 0px red dashed;
+	border-bottom: 2px red dashed;
+	float: left;
+}
+.table table td{
+	width: 300px;
+	border-width: 2px 0px 0px 0px;
+	border-color: red;
+	border-style: dashed;
+	border-collapse: collapse;
+}
+.clear {
+	clear: left;
+
+}

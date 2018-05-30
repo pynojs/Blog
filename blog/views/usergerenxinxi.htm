@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%=title%></title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="/stylesheets/style8.css" />
+	<script type="text/javascript" src="/javascripts/jQuery.js"></script>
+	<script type="text/javascript" src="/javascripts/js5.js"></script>
+</head>
+<body>
+	<form method="post" action="/user/update/<%=user._id%>">
+		<fieldset>
+			<legend>用户个人信息</legend>
+			姓名 <input type="text" value="<%=user.name%>" readonly="readonly" name="name"></input><br/>
+			生日 <input type="text" value="<%=user.birth%>" readonly="readonly" name="birth"></input><br/>
+			星座 <input type="text" value="<%=user.constellation%>" readonly="readonly" name="constellation"></input><br/>
+			手机号 <input type="tel" value="<%=user.tel%>" readonly="readonly" name="tel"></input><br/>
+			职业或专业 <input type="text" value="<%=user.profession%>" readonly="readonly" name="profession"></input><br/>
+			家乡 <input type="text" value="<%=user.hometown%>" readonly="readonly" name="hometown"></input><br/>
+			现在所在地 <input type="text" value="<%=user.place%>" readonly="readonly" name="place"></input><br/>
+			<button type="button" id="xiugai">修改</button> <button type="submit" id="sure">确定</button>
+
+		</fieldset>
+	</form>
+</body>
+</html>

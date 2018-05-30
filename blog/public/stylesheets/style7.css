@@ -1,0 +1,65 @@
+* {
+	padding: 0px;
+	margin:0px;
+}
+body {
+	margin: 10px;
+}
+.clear {
+	clear: both;
+}
+.home {
+	float: left;
+	width: 100px;
+	padding-right:30px; 
+	padding-left: 30px;
+	border-right: 2px solid #dedede;
+	border-left: 2px solid #dedede;
+	text-align: center;
+}
+.home img {
+	width: 70px;
+	height: 70px;
+}
+.room {
+	text-decoration: none;
+}
+.room:hover {
+	color: #aa0014;
+	font-size: 18px;
+}
+.comment {
+	float: left;
+	width: 50%;
+	margin-left: 20%;
+	margin-top: 3%;
+	height: 200px;
+	word-break: break-all;
+}
+.comment div {
+	text-align: center;
+}
+#button {
+	display: inline-block;
+	color: blue;
+	background-color: #00ff11;
+	border: 0px #00ff11;
+	height: 30px;
+	width: 70px;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	margin: 5px auto;
+
+}
+#button:hover {
+	cursor: pointer;
+	background-color: #23aa99;
+	transform: scale(1.1);
+}
+.copyright {
+	background-color: #aa98ff;
+	margin-top: 10%;
+	text-align: center;
+}
